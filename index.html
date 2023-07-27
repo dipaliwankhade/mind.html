@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health of Mind</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="social">
+            <a href=""><img class="facebook" src="../social logo/facebook.png" height="50" alt=""></a>
+            <a href="" class="twitter"><img src="../social logo/twitter.png" height="50" alt=""></a>
+            <a href="" class="instagram"><img src="../social logo/instagram.png" height="50" alt=""></a>
+        </div>
+        <a href="" class="text_logo"><h1>Health of Mind</h1></a>
+        <ul class="navigation">
+            <li><a href="">HOME</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <button class="toggle_btn"><img src="social logo/bar.png" height="50" alt="menu bar"></button>
+    </header>
+    <main><article>
+        <img src="../social logo/Mindfullness.png " alt="">
+        <div class="show_box">
+            <h1 class="show_title">Mental Health</h1>
+            <h2>Self care is self love</h2>
+            
+            <p>Be at peace. Do not disturb yourself. You never were in bondage, you never were virtuous or sinful. Get rid of all these delusions and be at peace<br>
+                </p>
+        <div class="action">
+            <a href="contact.html" class="contact">CONTACT</a>
+            <a href="read more.html" class="read_more">READ MORE</a>
+        </div>
+        </div>
+        <img src="../social logo/girl in air.jpg"  alt="">
+    </article>
+</main>
+<script>
+    const btn = document.querySelector(".toggle_btn");
+    btn.addEventListener("click",() =>
+    document.querySelector(".navigation").classlist.toggle("active")
+    )
+    ;
+</script>
+</body>
+</html>
